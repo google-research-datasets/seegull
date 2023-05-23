@@ -1,0 +1,3 @@
+[submodule "seegull-data"]
+	path = seegull-data
+	url = https://github.com/google-research-datasets/seegull-data/
