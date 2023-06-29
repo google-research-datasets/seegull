@@ -1,6 +1,6 @@
 # SeeGULL: A Stereotype Benchmark with Broad Geo-Cultural Coverage Leveraging Generative Models
 
-This repository contains data resources for the paper "SeeGULL: A Stereotype Benchmark with Broad Geo-Cultural Coverage Leveraging Generative Models". This dataset contains stereotype examples that may be offensive. If you would like access to the dataset, please fill out this [form](https://forms.gle/drPr12imob4aTkVcA) and we will get back to you with the data shortly.
+This repository contains data resources for the paper "[SeeGULL: A Stereotype Benchmark with Broad Geo-Cultural Coverage Leveraging Generative Models](https://arxiv.org/abs/2305.11840)". This dataset contains stereotype examples that may be offensive. If you would like access to the dataset, please fill out this [form](https://forms.gle/drPr12imob4aTkVcA) and we will get back to you with the data shortly.
 
 ## Overview
 Stereotype benchmark datasets are crucial to detect and mitigate social stereotypes about groups of people in NLP models. However, existing datasets are limited in size and coverage, and are largely restricted to stereotypes prevalent in the Western society. This is especially problematic as language technologies gain hold across the globe. To address this gap, we present SeeGULL, a broad-coverage stereotype dataset, built by utilizing generative capabilities of large language models such as PaLM, and GPT-3, and leveraging a globally diverse rater pool to validate the prevalence of those stereotypes in society. SeeGULL is in English, and contains stereotypes about identity groups spanning 178 countries across 8 different geo-political regions across 6 continents, as well as state-level identities within the US and India. We also include fine-grained offensiveness scores for different stereotypes and demonstrate their global disparities. Furthermore, we include comparative annotations about the same groups by annotators living in the region vs. those that are based in North America, and demonstrate that within-region stereotypes about groups differ from those prevalent in North America.
@@ -22,3 +22,21 @@ We only capture in-region stereotypes for Indian states (`stereotypes_indian_sta
 All three files contain the mean offensiveness scores. Higher the score, more offensive the stereotype. 
 
 ## Citation
+
+```
+{
+@inproceedings{jha-etal-2023-seegull,
+    title = "SeeGULL: A Stereotype Benchmark with Broad Geo-Cultural Coverage Leveraging Generative Models",
+    author = "Jha, Akshita  and
+      Davani, Aida  and
+      Reddy, Chandan K.  and
+      Dave, Shachi and
+      Prabhakaran, Vinodkumar  and
+      Dev, Sunipa",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics",
+    month = July,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+}
+```
