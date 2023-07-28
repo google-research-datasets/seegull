@@ -35,19 +35,21 @@ The `stereotypes_global.csv` dataset has been updated. We made the following cha
 ## Citation
 
 ```
-{
 @inproceedings{jha-etal-2023-seegull,
-    title = "SeeGULL: A Stereotype Benchmark with Broad Geo-Cultural Coverage Leveraging Generative Models",
+    title = "{S}ee{GULL}: A Stereotype Benchmark with Broad Geo-Cultural Coverage Leveraging Generative Models",
     author = "Jha, Akshita  and
-      Davani, Aida  and
-      Reddy, Chandan K.  and
-      Dave, Shachi and
+      Mostafazadeh Davani, Aida  and
+      Reddy, Chandan K  and
+      Dave, Shachi  and
       Prabhakaran, Vinodkumar  and
       Dev, Sunipa",
-    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics",
-    month = July,
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
     year = "2023",
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.548",
+    pages = "9851--9870",
 }
+
 ```
