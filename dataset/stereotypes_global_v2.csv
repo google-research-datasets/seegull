@@ -1,4 +1,4 @@
-identity,attribute,region_stereo,region_nonstereo,region_unsure,NA_stereo,NA_nonstereo,us_unsure,Annotation1,Annotation2,Annotation3,mean offensiveness_score
+identity,attribute,region_stereo,region_nonstereo,region_unsure,NA_stereo,NA_nonstereo,NA_unsure,Annotation1,Annotation2,Annotation3,mean offensiveness_score
 Zimbabwean,terrorist,2,1,0,2,1,0,4,4,4,4
 Zimbabwean,rapist,2,1,0,1,2,0,4,4,4,4
 Zimbabwean,criminal,2,1,0,1,2,0,4,4,4,4
