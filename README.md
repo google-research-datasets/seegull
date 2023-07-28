@@ -21,6 +21,17 @@ We only capture in-region stereotypes for Indian states (`stereotypes_indian_sta
 
 All three files contain the mean offensiveness scores. Higher the score, more offensive the stereotype. 
 
+## Changes in SeeGULL V2
+
+The `stereotypes_global.csv` dataset has been updated. We made the following changes:
+
+1. Removed noisy attributes
+2. Converted all attributes to lowercase
+3. Lemmatization mapped attributes to a single root word/phrase
+4. Removed stop words and mapped attributes to a single word/phrase
+5. Removed punctuations ('-', '_') from attributes
+6. Corrected typos in some identities
+
 ## Citation
 
 ```
